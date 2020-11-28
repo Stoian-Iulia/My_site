@@ -86,6 +86,9 @@ body{
     line-height: 24px;
     margin-bottom: 59px;
 }
+
+/*-----поиск.начало-----*/
+
 .search_form p{
     display: flex;
 }
@@ -118,5 +121,10 @@ body{
 .search_form p button:hover, .search_form p button:active{
     background-color: royalblue;
     cursor: pointer;
-
 }
+
+/*-----поиск.конец-----*/
+
+
+
+
