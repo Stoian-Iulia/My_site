@@ -135,11 +135,11 @@ body{
 }
 
 .benefits-container h2{
-    width: 1060px;
+    width: 1062px;
     font-weight: 500;
     font-size: 35px;
     line-height: 42px;
-    padding: 93px 100px 88px 100px;
+    padding: 93px 100px 120px 100px;
     position: absolute;
     top: 0;
     left: 0;
