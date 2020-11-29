@@ -126,5 +126,29 @@ body{
 /*-----поиск.конец-----*/
 
 
+.benefits-container{
+    max-width: 1262px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+    position: relative;
+}
 
+.benefits-container h2{
+    width: 1060px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    padding: 93px 100px 88px 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-100%);
+    background-color: #ffffff;
+}
 
+.benefits-container-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fm);
+    grid-column-gap: 55px;
+}
