@@ -22,6 +22,10 @@ img{
     max-width: 1060px;
     margin: 0 auto;
 }
+.container-main-contant{
+    max-width: 1262px;
+    margin: 0 auto;
+}
 
 /* Стили для header начало */
 
@@ -131,6 +135,9 @@ img{
 
 
 /*-----карточки.начало-----*/
+.benefits{
+    margin-bottom: 130px;
+}
 
 .benefits-container{
     max-width: 1262px;
@@ -191,9 +198,51 @@ img{
     color: #006DFE;
     text-decoration: none;
     text-transform: uppercase;
-    background: url(../My_site/img/svg/Shape.svg) no-repeat 95% center;
+    background: url(../My_site/img/svg/Shape.svg) no-repeat right center;
 }
 
 
 
 /*-----карточки.конец-----*/
+
+.container-main-contant{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 36px;
+
+}
+.images-title{
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;  
+    position: relative;
+    padding-bottom: 10px;
+
+
+}
+.images-title::after{
+    display: block;
+    content: "";
+    width: 253px;
+    height: 3px;
+    background-color: #006DFE;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.container-main-contant a{
+    font-size: 16px;
+    color: #006DFE;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: url(../My_site/img/svg/Shape.svg) no-repeat right center;
+    padding-right: 59px;
+}
+.places-cards{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    
+
+}
