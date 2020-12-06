@@ -53,7 +53,11 @@ img{
     left: 0;
     width: 100%;
     z-index: 99;
-
+    transition: .2s;
+    padding-bottom: 20px;
+}
+.header_active{
+    background-color: #0E1D28;
 }
 .header_container{
     display: flex;
@@ -446,6 +450,47 @@ img{
 .video-container{
     max-width: 1440px;
     margin: 0 auto;
+    padding-bottom: 0;
 }
 
         /*---video end---*/
+
+        /*---footer start---*/
+
+footer{
+    background-color:#0E1D28 ;
+    padding: 120px 0;
+}   
+
+.footer-item{
+    display: flex;
+}
+.footer-logo{
+    width: 50%;
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.footer-menu-item{
+    list-style-type: none;
+}
+.footer-menu-title{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff ;
+    margin: 0;
+}
+
+.footer-menu-link{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+}
+
+        /*---footer end---*/
