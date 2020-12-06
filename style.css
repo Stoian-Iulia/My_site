@@ -319,6 +319,8 @@ img{
 }
         /*---picturess end---*/
 
+        /*---travels start---*/
+
 .travels{
     margin-bottom: 140px;
 }
@@ -385,7 +387,7 @@ img{
     display: flex;
     align-items: center;
     position: absolute;
-    bottom: 0;
+    bottom: 3px;
     left: 0;
     width: 100%;
     background: rgba(21, 24, 36, 0.6);
@@ -397,7 +399,18 @@ img{
     line-height: 24px;
     color: #FFFFFF;
     text-transform: uppercase;
+    padding-left: 20px;
+    padding 
 }
 
+.place-card-likes{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    
+    
+
+}
 
         /*---places end---*/
