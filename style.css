@@ -22,10 +22,28 @@ img{
     max-width: 1060px;
     margin: 0 auto;
 }
-.container-main-contant{
+.container-main-content{
     max-width: 1262px;
     margin: 0 auto;
 }
+.subheader{
+    font-weight: 500px;
+    font-size: 35px;
+    line-height: 42px; 
+    position: relative;
+    padding-bottom: 10px; 
+}
+.subheader::after{
+    display: block;
+    content: '';
+    width: 253px;
+    height: 3px;
+    background-color: #006DFE;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
 
 /* Стили для header начало */
 
@@ -34,6 +52,7 @@ img{
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 99;
 
 }
 .header_container{
@@ -175,10 +194,11 @@ img{
 .benefits-card-img{
     max-width: 66px;
     margin-bottom: 37px;
+    padding-top: 30px;
 }
 
 .benefits-card-title{
-    font-weight: 500;
+    font-weight: 500px;
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 26px;
@@ -200,49 +220,147 @@ img{
     text-transform: uppercase;
     background: url(../My_site/img/svg/Shape.svg) no-repeat right center;
 }
+.benefits-card-more:hover{
+    opacity: .65;
+    
+}
 
 
 
 /*-----карточки.конец-----*/
 
-.container-main-contant{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 36px;
+/*----places start----*/
 
+.pictures{
+    margin-bottom: 200px;
 }
-.images-title{
+.pictures-title{
+    margin-bottom: 0;
     font-weight: 500;
     font-size: 35px;
-    line-height: 42px;  
-    position: relative;
-    padding-bottom: 10px;
-
-
+    line-height: 42px;
 }
-.images-title::after{
-    display: block;
-    content: "";
-    width: 253px;
-    height: 3px;
-    background-color: #006DFE;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+
+.pictures-container{
+    display: flex; /*для того чтобы элементы разместились на одной строке*/
+    align-items: center; /*выравнивание по центру*/
+    justify-content: space-between; /*чтобы элементы прибились к разным концам нашего блока*/
+    margin-bottom: 36px;
 }
-.container-main-contant a{
+
+.pictures-view-all{
     font-size: 16px;
     color: #006DFE;
     text-decoration: none;
     text-transform: uppercase;
+    padding-right: 60px;
     background: url(../My_site/img/svg/Shape.svg) no-repeat right center;
-    padding-right: 59px;
 }
-.places-cards{
+
+.pictures-view-all:hover{
+    opacity: .65;
+}
+
+.pictures-cards{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 10px;
-    
+}
+
+.pictures-card{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+     /*теневой эффект*/
+.pictures-card::after{ 
+    display: block;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(21, 24, 36, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+     /*теневой эффект*/
+
+.pictures-card-pic{
+    height: 100%;
+    width: 100%;
+ }
+
+.pictures-card-title{
+    font-size: 50px;
+    line-height: 60px;
+    color: white;
+    position: absolute;
+    bottom: 27px;
+    left: 29px;
+    z-index: 3;
+}
+
+.pictures-card_size_lg{
+    height: 354px;
+    grid-column: span 3;
+    margin: 0 auto;
 
 }
+
+.pictures-card_size_sm{
+    height: 283px;
+    grid-column: span 2;
+}
+
+
+.pictures-card-link{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+        /*---places end---*/
+
+.travels{
+    margin-bottom: 140px;
+}
+.travels-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 85px;
+    align-items: center;
+    margin-bottom: 77px;
+}
+.travel-title{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 45px;
+    
+}
+.travel-desc{
+    padding-left: 47px;
+}
+.travel-desc-info{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 58px;
+}
+.travel-link{
+    font-size: 16px;
+    color: #006DFE;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-right: 60px;
+    background: url(../My_site/img/svg/Shape.svg) no-repeat right center;
+}
+
+        /*---travels end---*/
+
+
+        /*---places start---*/
+
+
+
+        /*---places end---*/
