@@ -397,7 +397,7 @@ img{
     left: 0;
     width: 100%;
     background: rgba(21, 24, 36, 0.6);
-    padding: 16px 24px;
+    padding: 16px 0px;
 }
 
 .place-card-title{
