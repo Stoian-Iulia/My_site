@@ -1,0 +1,148 @@
+body{
+    font-family: 'Lato' sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #102746;
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+ 
+.container{
+    max-width: 1060px;
+    margin: 0 auto;
+}
+.header{
+    position: fixed;
+    top: 20зч;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    transition: .2s;
+    padding-bottom: 20px;
+    background: url(../My_site/img/intro-bg.jpg) no-repeat center;
+    background-size: ;
+}
+
+
+.header_active{
+    background-color: #0E1D28;
+
+}
+.header_container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 56px; 
+}
+.header_list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.header_item{
+    margin-right: 82px;
+}
+.header_item:last-child{
+    margin-right: 0;
+}
+.header_link{
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    text-decoration: none;
+}
+.header_link:hover{
+    opacity: 0.80;
+}
+
+.header_link:active{
+    color: lawngreen;
+}
+
+
+
+
+
+
+
+
+.intro{
+    min-height: 100vh;
+    
+    background-size: cover;
+    padding-top: 180px;
+    padding-bottom: 1px;
+    margin-bottom: ;
+}
+
+.intro_title{
+    max-width: 620px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    color: white;
+    margin-bottom: 22px;
+}
+
+.intro_subtitle{
+    max-width: 546px;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 59px;
+}
+
+
+
+
+
+
+footer{
+    background-color:#0E1D28 ;
+    padding: 120px 0;
+    margin-top: 0;
+}   
+
+.footer-item{
+    display: flex;
+}
+.footer-logo{
+    width: 50%;
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.footer-menu-item{
+    list-style-type: none;
+}
+.footer-menu-title{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff ;
+    margin: 0;
+}
+
+.footer-menu-link{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+}
+
+        /*---footer end---*/
