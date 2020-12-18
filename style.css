@@ -83,13 +83,11 @@ img{
     color: white;
     text-decoration: none;
 }
-.header_link:hover, 
+.header_link:hover{
     opacity: 0.80;
 }
 
-.header_link:active{
-    color: lawngreen;
-}
+
 
 /* Стили для header конец */
 

@@ -29,9 +29,32 @@ img{
     z-index: 99;
     transition: .2s;
     padding-bottom: 20px;
-    background: url(../My_site/img/intro-bg.jpg) no-repeat center;
-    background-size: ;
+    background: url(../My_site/img/intro-bg2.jpg) no-repeat center;
+    background-size:cover ;
 }
+.subheader{
+    font-weight: 500px;
+    font-size: 35px;
+    line-height: 42px; 
+    position: relative;
+    padding-bottom: 10px; 
+}
+
+.subheader::after{
+    display: block;
+    content: '';
+    width: 253px;
+    height: 3px;
+    background-color: #006DFE;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
+
 
 
 .header_active{
@@ -66,9 +89,6 @@ img{
     opacity: 0.80;
 }
 
-.header_link:active{
-    color: lawngreen;
-}
 
 
 
@@ -81,18 +101,17 @@ img{
     min-height: 100vh;
     
     background-size: cover;
-    padding-top: 180px;
-    padding-bottom: 1px;
-    margin-bottom: ;
+    padding-top: 120px;
+    padding-bottom: 0;
 }
 
 .intro_title{
-    max-width: 620px;
+    margin-bottom: 0;
     font-weight: 500;
-    font-size: 50px;
-    line-height: 60px;
-    color: white;
-    margin-bottom: 22px;
+    font-size: 35px;
+    line-height: 42px;
+    color: black;
+    padding-top: 60px;
 }
 
 .intro_subtitle{
@@ -103,8 +122,25 @@ img{
     margin-bottom: 59px;
 }
 
+.intro_desc{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    margin-right: 400px;
+}
 
 
+
+
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 62px;
+
+}
 
 
 
