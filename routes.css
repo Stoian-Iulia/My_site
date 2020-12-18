@@ -132,15 +132,64 @@ img{
 
 
 
-.prev, .next{
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 62px;
+.slider{
+    width: 400px;
+    margin: 0 auto;
 
 }
+
+.slide{
+    display: none;
+    position: relative;
+
+}
+
+.slide img{
+    width: 400px;
+    height: 250px;
+
+}
+
+.slide p{
+    position: absolute;
+    widows: 400px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    text-shadow: 4px 3px black;
+
+}
+
+.dots{
+    width: 100%;
+    margin: 0 auto;
+}
+.dot. active{
+    background-color: #0E1D28
+
+}
+
+.dot{
+    display: inline-block;
+    background: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

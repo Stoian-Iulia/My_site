@@ -1,0 +1,110 @@
+body{
+    font-family: 'Lato' sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #102746;
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+ 
+.container{
+    max-width: 1060px;
+    margin: 0 auto;
+}
+.header{
+    position: fixed;
+    top: 20зч;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    transition: .2s;
+    padding-bottom: 20px;
+    background: url(../My_site/img/intro-bg2.jpg) no-repeat center;
+    background-size:cover ;
+}
+.subheader{
+    font-weight: 500px;
+    font-size: 35px;
+    line-height: 42px; 
+    position: relative;
+    padding-bottom: 10px; 
+}
+
+.subheader::after{
+    display: block;
+    content: '';
+    width: 253px;
+    height: 3px;
+    background-color: #006DFE;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
+.header_active{
+    background-color: #0E1D28;
+
+}
+.header_container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 56px; 
+}
+.header_list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.header_item{
+    margin-right: 82px;
+}
+.header_item:last-child{
+    margin-right: 0;
+}
+.header_link{
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    text-decoration: none;
+}
+.header_link:hover{
+    opacity: 0.80;
+}
+
+
+
+
+
+
+
+
+
+.main{
+    background-color: #2B4F72;
+    width: 100%;
+}
+
+.japonet{
+    text-align: center;
+    padding-top: 170px;
+    padding-left: 450px;
+    margin-bottom: 400px;
+}
